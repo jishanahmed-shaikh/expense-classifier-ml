@@ -68,7 +68,7 @@ Never hardcode an absolute path.
 
 ## Key Constraints
 
-- **Do not use ccountId as a feature** — it is a direct foreign key to ccountName
+- **Do not use accountId as a feature** — it is a direct foreign key to accountName
   and would cause data leakage.
 - **Do not modify files in data/** — the raw dataset is read-only.
 - **Do not add co-author or AI-generated commit metadata** to commits.

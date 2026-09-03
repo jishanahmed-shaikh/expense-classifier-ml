@@ -1,7 +1,7 @@
 ﻿# Expense Classifier ML
 
 A machine learning pipeline that classifies expense line items into their correct
-accounting categories (ccountName) from free-text descriptions, vendor identity,
+accounting categories (accountName) from free-text descriptions, vendor identity,
 and transaction amounts.
 
 ---
