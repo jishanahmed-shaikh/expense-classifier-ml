@@ -1,21 +1,17 @@
-﻿# ── Core data stack ────────────────────────────────────────────────────────────
+# Core
 numpy==1.26.4
 pandas==3.0.5
-scipy>=1.11.0
-
-# ── Machine learning ───────────────────────────────────────────────────────────
+scipy==1.17.1
 scikit-learn==1.9.0
-lightgbm==4.7.0
-xgboost==3.2.0
-imbalanced-learn==0.14.2
 
-# ── Visualisation ─────────────────────────────────────────────────────────────
+# Visualisation (EDA + report figures)
 matplotlib==3.11.1
 seaborn==0.13.2
 
-# ── Notebook ──────────────────────────────────────────────────────────────────
-jupyter>=1.0.0
-ipykernel>=6.0.0
-
-# ── Persistence ───────────────────────────────────────────────────────────────
+# Persistence
 joblib==1.5.3
+
+# Notebook execution
+jupyter>=1.0
+nbconvert>=7.0
+ipykernel>=6.0
